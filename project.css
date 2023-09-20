@@ -284,5 +284,9 @@ color: #000000;
 a{
 text-decoration: none;
 }
-
+.projects {
+  .article-wrapper{
+    margin-bottom: 5.2vw;
+  }
+}
 }
