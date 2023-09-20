@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hey there</title>
+  <link rel="stylesheet" href="home.css">
+  <style>
+    a.active {
+      color: #000000;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <section>
+      <nav>
+        <ul class="menuItems">
+          <li><a href='index.html' data-item='Home' class="active">Home</a></li>
+          <li><a href='about.html' data-item='About'>About</a></li>
+          <li><a href='project.html' data-item='Projects'>Projects</a></li>
+          <li><a href='contact.html' data-item='Contact'>Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+  <div class="home">
+    <div class="card">
+      <img href="#" src="resource/profile.png" alt="">
+    </div>
+    <div class="text">
+      <h1> Hii, I am <span class="name">john doe</span></h1>
+      <h1>I am
+        <span class="txt-rotate" data-period="2000"
+          data-rotate='[ " a Tech nerd", " Enthusiastic", " gamer", " web developer", " android developer" ]'></span>
+      </h1>
+    </div>
+  </div>
+ <!--bottom nav bar--> 
+  <header class="header" id="header">
+    <div class="btnav">
+      
+      <div class="nav-item active">
+        <a href='index.html'>
+          <i class="material-icons home-icon">
+              home
+            </i>
+          </a>
+        <span class="nav-text">Home</span>
+      </div>
+      <div class="nav-item">
+        <a href='about.html'>
+          
+          <i class="material-icons person-icon">
+            person
+          </i>
+        </a>
+          <span class="nav-text">about</span>
+      </div>
+      <div class="nav-item">
+        <a href='project.html'>
+          
+          <i class="material-icons workspaces-icon">
+              workspaces
+          </i>
+        </a>
+          <span class="nav-text">projects</span>
+      </div>
+      <div class="nav-item">
+        <a href='contact.html'>
+          <i class="material-icons call-icon">
+              call
+          </i>
+
+        </a>
+          <span class="nav-text">Contact</span>
+      </div>
+    </div>
+  </header>
+
+  <script src="portfolio.js"></script>
+</body>
+
+
+</html>
