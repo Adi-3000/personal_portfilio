@@ -285,6 +285,7 @@ a{
 text-decoration: none;
 }
 .projects {
+  padding-bottom: 13vh;
   .article-wrapper{
     margin-bottom: 5.2vw;
   }
